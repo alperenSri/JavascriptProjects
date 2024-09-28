@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .cards{
+        @apply md:flex-1 flex-[0.5] h-3/4 m-2 bg-no-repeat bg-cover rounded-2xl hover:cursor-pointer;
+    }
+}
+
+#toolbox > * {
+    @apply bg-white border-none inline-flex
+    items-center justify-center text-2xl h-[50px]
+    w-[50px] m-1 p-1 cursor-pointer;
+}
+
+#toolbox > *:last-child {
+    @apply ml-auto;
+}

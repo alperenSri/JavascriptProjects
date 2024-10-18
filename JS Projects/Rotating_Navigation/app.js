@@ -1,1 +1,0 @@
-//transform origin-top-left -rotate-12 transition-all duration-500 ease-linear hover:scale-105
